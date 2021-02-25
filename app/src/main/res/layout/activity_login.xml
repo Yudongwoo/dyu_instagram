@@ -27,7 +27,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/email"></EditText>
+            android:hint="@string/email"></EditText>
         </com.google.android.material.textfield.TextInputLayout>
         <EditText
             android:layout_width="match_parent"
