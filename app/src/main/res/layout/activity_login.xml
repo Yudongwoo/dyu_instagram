@@ -29,10 +29,17 @@
             android:layout_height="wrap_content"
             android:hint="@string/email"></EditText>
         </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/password"></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
         <Button
             android:text="@string/signin_email"
             android:theme="@style/ButtonStyle"
